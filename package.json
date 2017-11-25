@@ -1,0 +1,11 @@
+{
+  "name": "mathtutor",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "mvn exec:java -Dexec.mainClass='mathtutor.MathTutor'",
+    "start:debug": "mvn exec:exec -Dexec.executable='java' -Dexec.args='-classpath %classpath -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=1044 mathtutor.MathTutor'"
+  },
+  "author": "Jess Lorantfy",
+  "license": "MIT"
+}
